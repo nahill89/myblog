@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 
-gem 'bootstrap-sass'
+
 
 gem 'simple_form'
 
@@ -26,6 +26,7 @@ end
 
 gem 'jquery-rails'
 group :production do
+	gem 'bootstrap-sass'
 
 gem 'pg'
 end
