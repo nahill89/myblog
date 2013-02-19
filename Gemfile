@@ -10,6 +10,7 @@ gem 'simple_form'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
 gem 'sqlite3', '1.3.7'
+gem 'bootstrap-sass'
 end
 
 # Gems used only for assets and not required
