@@ -11,7 +11,9 @@ gem 'simple_form'
 group :development, :test do
 gem 'sqlite3', '1.3.7'
 gem 'bootstrap-sass'
+gem 'bcrypt-ruby'
 end
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -31,6 +33,7 @@ group :production do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'rails', '3.2.11'
+  gem 'bcrypt-ruby'
 
 
 
